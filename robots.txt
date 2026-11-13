@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rcarvalhoimigracao.com/sitemap.xml
