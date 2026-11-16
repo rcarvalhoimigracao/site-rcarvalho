@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EB-5: o que é, quanto exige e como funciona | Raphael Carvalho</title>
+<meta name="description" content="Entenda o EB-5 (green card por investimento): valor mínimo segundo o USCIS, regra dos 10 empregos, origem lícita dos recursos e o risco do investimento. Conteúdo informativo, com fonte oficial.">
+<link rel="canonical" href="https://rcarvalhoimigracao.com/eb5/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EB-5: o que é e como funciona">
+<meta property="og:description" content="O que é o EB-5, o valor mínimo segundo o USCIS e o risco do investimento. Com fonte oficial.">
+<meta property="og:url" content="https://rcarvalhoimigracao.com/eb5/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://rcarvalhoimigracao.com/assets/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230B1B3A'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%23D9A441' text-anchor='middle'%3ERC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0B1B3A; --navy-2:#13294F; --cream:#F6F0E2; --cream-2:#EDE4CF;
+  --gold:#D9A441; --gold-d:#B98524; --ink:#1B1B1B; --muted:#5B6275;
+  --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;font-size:17px}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Barlow Condensed",Impact,sans-serif;text-transform:uppercase;line-height:1.02;letter-spacing:.01em}
+.it{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:400}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:var(--navy);color:var(--cream)}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px}
+.brand{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;line-height:1.05;text-decoration:none;font-weight:700;letter-spacing:.06em;font-size:15px}
+.brand small{display:block;font-weight:600;color:var(--gold);letter-spacing:.18em;font-size:11px}
+nav.menu{display:none;gap:26px;font-size:15px}
+nav.menu a{text-decoration:none;opacity:.85}
+nav.menu a:hover{opacity:1;color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:var(--navy);font-weight:600;text-decoration:none;padding:14px 24px;border-radius:999px;font-size:16px;transition:.15s;border:2px solid var(--gold);text-align:center}
+.btn:hover{background:var(--gold-d);border-color:var(--gold-d)}
+.btn.sm{padding:9px 16px;font-size:14px}
+.btn.ghost{background:transparent;color:var(--cream);border-color:rgba(246,240,226,.5)}
+.btn.ghost:hover{border-color:var(--gold);color:var(--gold);background:transparent}
+.btn.ghost-d{background:transparent;color:var(--navy);border-color:var(--navy)}
+.btn.ghost-d:hover{background:var(--navy);color:var(--cream)}
+
+/* hero */
+.hero{background:var(--navy);color:var(--cream);padding:48px 0 56px;overflow:hidden}
+.hero-grid{display:grid;gap:28px}
+.eyebrow{color:var(--gold);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;margin-bottom:14px}
+.hero h1{font-size:clamp(42px,7vw,80px);margin-bottom:34px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero .it{font-size:clamp(19px,2.6vw,24px);color:#E7DFCC;max-width:34em;margin-bottom:26px;margin-top:0}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:10px}
+.fine{font-size:14px;opacity:.75;max-width:32em}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:30px;border-top:1px solid rgba(246,240,226,.2);padding-top:18px}
+.stat b{display:block;font-family:"Barlow Condensed",sans-serif;font-size:clamp(28px,5vw,42px);color:var(--gold);line-height:1}
+.stat span{font-size:13px;opacity:.85;line-height:1.3;display:block;margin-top:4px}
+.photo{position:relative;align-self:start;min-height:280px}
+.photo img{margin:0 auto;max-height:520px;height:auto;width:auto;max-width:100%;object-fit:cover;border-radius:16px;box-shadow:0 18px 40px rgba(0,0,0,.35);border:3px solid var(--gold)}
+.about-photo{border-radius:14px;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;max-width:340px;margin-top:18px;box-shadow:0 10px 30px rgba(11,27,58,.2)}
+.photo.nophoto::after{content:"Foto do Raphael aqui";display:flex;align-items:center;justify-content:center;height:320px;border:2px dashed rgba(246,240,226,.35);border-radius:16px;color:rgba(246,240,226,.6);font-size:14px}
+.photo.nophoto img{display:none}
+
+section{padding:68px 0}
+section h2{font-size:clamp(34px,6vw,54px);margin-bottom:14px;color:var(--navy)}
+.lead{font-size:19px;color:var(--muted);max-width:40em}
+
+/* dores */
+.pains{display:grid;gap:12px;margin-top:28px}
+.pain{background:#fff;border-left:5px solid var(--gold);padding:18px 20px;border-radius:6px;font-weight:500}
+.pain-close{margin-top:26px;font-size:20px}
+.pain-close.it{color:var(--navy)}
+
+/* quem sou */
+.about{background:var(--cream-2)}
+.about-grid{display:grid;gap:28px}
+.about p{margin-bottom:14px}
+.callout{margin-top:20px;background:var(--navy);color:var(--cream);padding:18px 22px;border-radius:10px;font-size:15px}
+.callout b{color:var(--gold)}
+
+/* caminhos */
+.cards{display:grid;gap:16px;margin-top:28px}
+.card{background:#fff;border-radius:12px;padding:24px;border-top:5px solid var(--navy)}
+.card h3{font-size:28px;color:var(--navy);margin-bottom:6px}
+.card .tag{font-size:13px;color:var(--gold-d);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;display:block}
+.card p{color:var(--muted);font-size:16px}
+.note{margin-top:20px;font-size:15px;color:var(--muted)}
+
+/* como funciona */
+.steps-sec{background:var(--navy);color:var(--cream)}
+.steps-sec h2{color:var(--cream)}
+.steps{display:grid;gap:18px;margin-top:28px;counter-reset:s}
+.step{border:1px solid rgba(246,240,226,.22);border-radius:12px;padding:22px 22px 22px 70px;position:relative}
+.step::before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:16px;font-family:"Barlow Condensed",sans-serif;font-size:44px;color:var(--gold);line-height:1}
+.step h3{font-size:24px;margin-bottom:4px}
+.step p{opacity:.88;font-size:16px}
+.steps-sec .fine{margin-top:20px;max-width:none}
+
+/* faq */
+details{background:#fff;border-radius:10px;margin-top:12px;padding:0}
+summary{cursor:pointer;list-style:none;padding:18px 52px 18px 20px;font-weight:600;position:relative;color:var(--navy)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:26px;color:var(--gold-d)}
+details[open] summary::after{content:"–"}
+.ans{padding:0 20px 18px;color:#333;font-size:16px}
+.ans p{margin-bottom:8px}
+.src{font-size:13px;color:var(--muted)}
+.src a{color:var(--navy)}
+
+/* newsletter */
+.news{background:var(--cream-2)}
+.news-box{background:#fff;border-radius:16px;padding:32px 24px;display:grid;gap:18px;align-items:center}
+.social{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+
+/* cta final */
+.final{background:var(--navy);color:var(--cream);text-align:center}
+.final h2{color:var(--cream);margin-bottom:10px}
+.final .it{font-size:22px;margin-bottom:26px;color:#E7DFCC}
+.final .ctas{justify-content:center}
+
+footer{background:#06112A;color:#BFC6D6;padding:34px 0;font-size:14px}
+footer p{max-width:60em;margin-bottom:10px}
+footer a{color:var(--gold)}
+
+.dsk{display:none}
+@media (min-width:600px){.dsk{display:inline}}
+@media (min-width:860px){
+  nav.menu{display:flex}
+  .hero-grid{grid-template-columns:1.15fr .85fr;align-items:start}
+  .hero{padding:64px 0}
+  .about-grid{grid-template-columns:.8fr 1.2fr;align-items:start}
+  .cards{grid-template-columns:repeat(3,1fr)}
+  .steps{grid-template-columns:repeat(3,1fr)}
+  .pains{grid-template-columns:repeat(2,1fr)}
+  .news-box{grid-template-columns:1.2fr .8fr;padding:40px}
+}
+
+.art{padding:48px 0 20px}
+.art h1{font-size:clamp(38px,6vw,64px);color:var(--navy);margin-bottom:18px}
+.art h2{font-size:clamp(28px,4.5vw,38px);margin:38px 0 10px;color:var(--navy)}
+.art .wrap{max-width:780px}
+.art p,.art li{margin-bottom:12px}
+.art ul,.art ol{padding-left:22px;margin-bottom:12px}
+.crumb{font-size:14px;color:var(--muted);margin-bottom:14px}.crumb a{color:var(--navy)}
+.quick{background:#fff;border-left:5px solid var(--gold);padding:18px 22px;border-radius:6px;margin:18px 0}
+.warn{background:var(--navy);color:var(--cream);padding:18px 22px;border-radius:10px;margin:18px 0;font-size:16px}
+.cta-box{background:var(--cream-2);border-radius:14px;padding:26px 24px;margin:34px 0 10px}
+.cta-box .ctas{margin-top:14px}
+.disc{font-size:14px;color:var(--muted);margin-top:18px}
+.nb{white-space:nowrap}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hd">
+    <a class="brand" href="/">Raphael Carvalho<small>Immigration Expert</small></a>
+    <nav class="menu" aria-label="Principal">
+      <a href="/#quem-sou">Quem sou</a>
+      <a href="/#caminhos">Caminhos</a>
+      <a href="/#perguntas">Perguntas</a>
+      <a href="/#newsletter">Newsletter</a>
+    </nav>
+    <a class="btn sm" href="https://tally.so/r/D4boAE" target="_blank" rel="noopener" data-track="cta-header-eb5">Conversar<span class="dsk"> sobre meu caso</span></a>
+  </div>
+</header>
+<main>
+<article class="art"><div class="wrap">
+<p class="crumb"><a href="/">Início</a> › <a href="/#caminhos">Caminhos</a> › EB-5</p>
+<h1>EB-5: o que é e como funciona</h1>
+
+<div class="quick"><strong>Resposta rápida.</strong> O <span class="nb">EB-5</span> é um caminho de <strong>green card por investimento</strong>: a pessoa investe numa empresa comercial nos EUA que gere empregos. Não é um visto temporário e não é para qualquer orçamento: o USCIS fixa um valor mínimo alto e exige que o dinheiro tenha <strong>origem lícita comprovada</strong> e esteja <strong>realmente em risco</strong>. Isto é conteúdo informativo, não é recomendação de investimento, e não há garantia de aprovação nem de retorno financeiro.</div>
+
+<h2>Valor mínimo de investimento</h2>
+<p>Segundo o USCIS (Policy Manual), para pedidos apresentados a partir de <strong>15 de março de 2022</strong>:</p>
+<ul>
+<li><strong>US$ 1.050.000</strong> no caso padrão.</li>
+<li><strong>US$ 800.000</strong> em área de emprego-alvo (TEA) ou em projeto de infraestrutura.</li>
+</ul>
+<div class="warn"><strong>Atenção:</strong> o USCIS informa que esses valores <strong>se reajustam automaticamente em 1º de janeiro de 2027</strong>, e depois a cada 5 anos. Confirme sempre o valor em vigor na data do seu pedido, no site do USCIS.</div>
+<p>O que é TEA: área rural ou área com alto desemprego, conforme definição do USCIS. Projetos de infraestrutura só existem pelo caminho do centro regional.</p>
+
+<h2>Regra dos 10 empregos</h2>
+<p>O investimento precisa criar pelo menos <strong>10 empregos de tempo integral</strong> para trabalhadores qualificados nos EUA. O USCIS considera tempo integral um mínimo de 35 horas de trabalho por semana.</p>
+
+<h2>O dinheiro: origem lícita e risco</h2>
+<ul>
+<li><strong>Origem lícita:</strong> é preciso comprovar, com documentos, que o capital foi obtido de forma legal. Para pedidos apresentados a partir de 14 de maio de 2022, o USCIS pede provas como declarações de imposto de renda dos últimos 7 anos (ou outro período definido). Presentes e empréstimos podem ser aceitos se forem feitos de boa-fé.</li>
+<li><strong>Dinheiro em risco:</strong> o investidor precisa colocar o capital de fato em risco. Segundo o USCIS, para estar em risco, “tem de haver risco de perda e chance de ganho”. A simples intenção de investir não basta.</li>
+</ul>
+<p>Em português claro: o investimento pode dar errado, e o dinheiro pode ser perdido. Ninguém pode prometer retorno nem garantir o green card.</p>
+
+<h2>Os dois caminhos</h2>
+<ul>
+<li><strong>Investidor independente (standalone):</strong> o investidor faz o pedido pelo formulário <span class="nb">I-526</span>, em um negócio próprio ou de que participe diretamente.</li>
+<li><strong>Centro regional:</strong> o investidor investe por meio de um centro regional, e o pedido é feito pelo formulário <span class="nb">I-526E</span>. O programa de centros regionais está autorizado, segundo o USCIS, <strong>até 30 de setembro de 2027</strong>. O USCIS não informa o que acontece depois dessa data.</li>
+</ul>
+
+<h2>Depois da aprovação</h2>
+<p>O green card do <span class="nb">EB-5</span> começa como <strong>residência condicional</strong>, por 2 anos. Nos 90 dias que antecedem o fim desse período, o investidor pede a retirada das condições (formulário <span class="nb">I-829</span>), comprovando que o investimento foi feito e mantido, e que os empregos foram criados (ou serão, dentro de prazo razoável).</p>
+
+<h2>Dúvidas comuns</h2>
+<details><summary>“<span class="nb">EB-5</span> é só para milionário?”</summary><div class="ans"><p>O valor mínimo é alto: a partir de US$ 800 mil em área-alvo, segundo o USCIS. Não é um caminho para qualquer orçamento, e há também os custos do processo e o risco do investimento. Quem não tem esse capital disponível deve avaliar outros caminhos.</p></div></details>
+<details><summary>“Posso usar dinheiro emprestado ou de presente?”</summary><div class="ans"><p>Segundo o USCIS, presentes e empréstimos podem ser aceitos se feitos de boa-fé, mas a origem precisa ser comprovada com documentos.</p></div></details>
+<details><summary>“Comprar um imóvel conta?”</summary><div class="ans"><p>Cada projeto tem regras próprias. O USCIS exige empresa comercial que gere empregos. Antes de investir, procure orientação jurídica e financeira independente.</p></div></details>
+<details><summary>“Quanto demora?”</summary><div class="ans"><p>Prazos mudam. Consulte as páginas oficiais do USCIS. Não prometo prazo.</p></div></details>
+
+<h2>O que o <span class="nb">EB-5</span> não garante</h2>
+<div class="warn">Nenhum conteúdo, nem este, garante aprovação, prazo, retorno do investimento ou resultado. A decisão final é sempre do governo dos EUA, e a regra pode mudar. Desconfie de quem promete aprovação garantida, retorno certo ou “atalho”. Não sou advogado nem consultor financeiro, e esta página não é recomendação de investimento.</div>
+
+<div class="cta-box">
+<h2 style="margin-top:0">Próximo passo</h2>
+<p>Quer entender se o seu perfil se encaixa? Conte o seu momento e eu retorno a conversa.</p>
+<div class="ctas">
+<a class="btn" href="https://tally.so/r/D4boAE" target="_blank" rel="noopener" data-track="cta-eb5-conversar">Quero conversar sobre meu caso</a>
+<a class="btn ghost-d" href="https://tally.so/r/Yj0JMd" target="_blank" rel="noopener" data-track="cta-eb5-newsletter">Receber 1 email por semana</a>
+</div></div>
+
+<h2>Fontes oficiais (consultadas em 15/11/2026)</h2>
+<ul class="src">
+<li><a href="https://www.uscis.gov/policy-manual/volume-6-part-g-chapter-1" target="_blank" rel="noopener">USCIS, Policy Manual, Volume 6, Parte G, Capítulo 1</a> (valores mínimos e centros regionais).</li>
+<li><a href="https://www.uscis.gov/policy-manual/volume-6-part-g-chapter-2" target="_blank" rel="noopener">USCIS, Policy Manual, Volume 6, Parte G, Capítulo 2</a> (TEA, empregos, origem dos recursos e risco).</li>
+<li><a href="https://www.uscis.gov/policy-manual/volume-6-part-g-chapter-7" target="_blank" rel="noopener">USCIS, Policy Manual, Volume 6, Parte G, Capítulo 7</a> (remoção das condições).</li>
+<li><a href="https://www.uscis.gov/working-in-the-united-states/permanent-workers/eb-5-immigrant-investor-program" target="_blank" rel="noopener">USCIS, “EB-5 Immigrant Investor Program”</a> (página revisada em 01/03/2023).</li>
+</ul>
+<p class="disc">Este conteúdo é informativo e não substitui orientação jurídica individual. Raphael Carvalho não é advogado. Regras de imigração mudam: confirme sempre nas fontes oficiais.</p>
+</div></article>
+</main>
+<footer><div class="wrap">
+<p><a href="/">← Voltar ao site</a> · <a href="/privacidade.html">Política de Privacidade</a> · <a href="#" id="ck-prefs">Preferências de cookies</a> · <a href="mailto:contato@rcarvalhoimigracao.com">contato@rcarvalhoimigracao.com</a></p>
+</div></footer>
+<script src="/analytics.js" defer></script>
+</body>
+</html>
